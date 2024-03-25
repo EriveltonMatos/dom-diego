@@ -20,7 +20,7 @@ interface Service {
           <div className="text-center font-bold text-5xl mb-2 text-amber-200" >{title}</div>
         </div>
         <div className="flex justify-center pt- pb-5 ">
-          <span className="inline-block border-2  hover:bg-orange-800 transition-colors border-orange-700 rounded-lg px-8 text-5xl py-2 font-semibold text-white mr-2"><span className="text-xl">R$</span>{price}<span className="text-xl">.00</span></span>
+          <span className="inline-block border-2  bg-orange-800 hover:bg-orange-600 transition-colors border-orange-700 rounded-lg px-8 text-5xl py-2 font-semibold text-white mr-2"><span className="text-xl">R$</span>{price}<span className="text-xl">.00</span></span>
         </div>
       </div>
     );

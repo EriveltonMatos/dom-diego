@@ -40,18 +40,22 @@ export const HeroSection = () => {
             O SEU DESTINO PARA ESTILO E ELEGÂNCIA MASCULINA COM UM PREÇO JUSTO E SERVIÇOS DE ALTA QUALIDADE
           </p>
           <div className="flex justify-center max-sm:flex-col max-sm:space-y-5 max-sm:space-x-0 items-center space-x-4 max-lg:flex-col max-lg:space-y-5">
+            <a href="https://wa.me/5585985221463" target="_blank" rel="noopener noreferrer">
             <button className="space-x-2  border-2 border-orange-700 hover:bg-orange-800 text-white font-bold py-2 px-4 rounded transition-colors">
               <div className="flex items-center space-x-2">
                 <FaWhatsapp />
                 <p>Agende um horário</p>
               </div>
             </button>
+            </a>
+            <a href="https://www.instagram.com/dom.diego92/" target="_blank" rel="noopener noreferrer">
             <button className="space-x-2 border-2 border-orange-700 hover:bg-orange-800 text-white font-bold py-2 px-4 rounded transition-colors">
               <div className="flex items-center space-x-2">
                 <FaInstagram />
                 <p>Acesse nosso Instagram</p>
               </div>
             </button>
+            </a>
           </div>
           <p className=" p-8 flex justify-center font-sans text-gray-400 max-sm:text-center">
             Estamos localizados na Av. Bezerra de Menezes - Farias Brito,
