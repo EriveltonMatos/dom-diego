@@ -1,0 +1,38 @@
+[class^="number-slide"],
+[class*=" number-slide"] {
+  background: 8B432E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  height: 300px;
+  max-height: 100vh;
+}
+
+
+.service-image {
+  width: 100%; /* ou defina a largura desejada em pixels */
+  height: 420px; /* Para manter a proporção da imagem */
+}
+
+.navt{
+  @apply relative 
+}
+
+.navt::after {
+  @apply content-[''] w-[0%] bg-white h-[3px] rounded-xl left-0 -bottom-[5px] absolute duration-300
+}
+
+.navt:hover::after{
+  @apply w-[100%]
+}
+
+.zoom-on-hover {
+  transition: transform 0.3s; /* Adiciona uma transição suave ao efeito de zoom */
+}
+
+.zoom-on-hover:hover {
+  transform: scale(1.1); /* Aumenta o tamanho do elemento durante o hover */
+}
