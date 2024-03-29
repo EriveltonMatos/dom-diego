@@ -3,7 +3,7 @@ import * as React from "react"
 import "/src/app/styles.css"
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
-import { MotionDiv } from "../motion-div/page"
+import { MotionDiv } from "../motion-div"
 
 export const Slider = () => {
   

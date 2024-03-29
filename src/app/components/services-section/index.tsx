@@ -1,4 +1,4 @@
-import { MotionDiv } from "../motion-div/page";
+import { MotionDiv } from "../motion-div";
 
 
 const variants = {
