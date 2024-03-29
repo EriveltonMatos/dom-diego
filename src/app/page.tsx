@@ -1,8 +1,5 @@
 import { HeroSection } from "./components/hero-section";
 import { Courier_Prime } from "next/font/google";
-
-import { AppProps } from 'next/app';
-
 import { Footer } from "./components/footer";
 import { MapsSection } from "./components/maps-section";
 import { Slider } from "./components/slider";

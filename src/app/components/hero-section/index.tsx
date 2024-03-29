@@ -44,7 +44,7 @@ export const HeroSection = () => {
             <button className="space-x-2  border-2 border-orange-700 hover:bg-orange-800 text-white font-bold py-2 px-4 rounded transition-colors">
               <div className="flex items-center space-x-2">
                 <FaWhatsapp />
-                <p>Agende um horário</p>
+                <p>Entre em Contato</p>
               </div>
             </button>
             </a>

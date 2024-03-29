@@ -11,14 +11,14 @@ export const MapsSection = () => {
         </div>
         <div className="p-10">
           <h1 className=" flex justify-center text-6xl text-white font-semibold max-sm:text-3xl text-center p-2">ESTAMOS LOCALIZADOS NA:</h1>
-          <p className="text-3xl text-amber-100 max-sm:text-center max-sm:text-2xl">AV. BEZERRA DE MENEZES - FARIAS BRITO, FORTALEZA - CE, 60015-340</p>
+          <p className=" text-amber-100 max-sm:text-center max-sm:text-xl text-3xl">AV. BEZERRA DE MENEZES - FARIAS BRITO, FORTALEZA - CE, 60015-340</p>
         </div>
         <div className="flex items-center space-x-20 max-sm:flex-col max-sm:space-y-6 max-sm:justify-center max-sm:space-x-0">
           <a href="https://wa.me/5585985221463" target="_blank" rel="noopener noreferrer">
-          <button className=" border-2 border-orange-700 hover:bg-orange-800 text-white font-bold py-2 px-4 h-full rounded transition-colors">
+          <button className="border-2 border-orange-700 hover:bg-orange-800 text-white font-bold py-2 px-4 h-full rounded transition-colors">
             <div className="flex items-center space-x-2 ">
               <FaWhatsapp />
-              <p>Agende um horário</p>
+              <p>Entre em Contato</p>
             </div>
           </button>
           </a>

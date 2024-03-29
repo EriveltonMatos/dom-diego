@@ -14,8 +14,9 @@
 
 .service-image {
   width: 100%; /* ou defina a largura desejada em pixels */
-  height: 420px; /* Para manter a proporção da imagem */
+  height: 400px; /* Para manter a proporção da imagem */
 }
+
 
 .navt{
   @apply relative 
