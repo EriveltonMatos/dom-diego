@@ -32,32 +32,32 @@ interface Service {
     const services: Service[] = [
       {
         title: "CORTE DEGRADÊ",
-        price: 20,
+        price: 25.00,
         imageUrl: "images/degrade.png", // URL da imagem para o serviço de corte de cabelo
       },
       {
         title: "CORTE SOCIAL",
-        price: 18.00,
+        price: 20.00,
         imageUrl: "images/social.jpg", // URL da imagem para o serviço de barba completa
       },
       {
-        title: "DEGRADÊ NAVALHASO",
-        price: 25,
+        title: "DEGRADÊ NAVALHADO",
+        price: 30.00,
         imageUrl: "images/navalha.jpg", // URL da imagem para o pacote completo
       },
       {
         title: "BARBA COMPLETA",
-        price: 18,
+        price: 20.00,
         imageUrl: "images/barba.jpg", // URL da imagem para o serviço de corte de cabelo
       },
       {
         title: "APARAR BARBA",
-        price: 5,
+        price: 5.00,
         imageUrl: "images/barba2.jpg", // URL da imagem para o serviço de corte de cabelo
       },
       {
         title: "APARAR SOBRANCELHA",
-        price: 5,
+        price: 5.00,
         imageUrl: "images/sobrancelha.jpg", // URL da imagem para o serviço de corte de cabelo
       },
     ];
