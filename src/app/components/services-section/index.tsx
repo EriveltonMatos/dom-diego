@@ -15,7 +15,7 @@ interface Service {
   const ServiceCard: React.FC<Service> = ({ title, price, imageUrl }) => {
     return (
       <div className="hover:scale-110 duration-200 max-w-sm rounded overflow-hidden shadow-lg shadow-orange-400 hover:shadow-amber-200 max-sm:hover:none transition-all">
-        <img className="w-full p-2 rounded-2xl service-image" src={imageUrl} alt={title} />
+        <img className="w-full p-2 rounded-2xl service-image object-cover" src={imageUrl} alt={title} />
         <div className="px-5 py-4">
           <div className="text-center font-bold text-5xl mb-2 text-amber-200" >{title}</div>
         </div>

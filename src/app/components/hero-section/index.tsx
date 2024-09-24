@@ -10,7 +10,7 @@ export const HeroSection = () => {
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center">
             <a href="#">
-              <img className="h-12 rounded-full brightness-200" src="/images/logo.png" alt="logo pequena" />
+              <img className="h-12 rounded-full brightness-200 object-cover" src="/images/logo.png" alt="logo pequena" />
             </a>
           </div>
           <div className="hidden md:block">
